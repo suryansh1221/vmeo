@@ -22,7 +22,7 @@ const TableData = (props) => {
     const [loading, setLoading] = useState(false);
     const [results, setResults] = useState([]);
     const [value, setValue] = useState([]);
-    const [selectedValue, setSelectedValue] = useState('Filter');
+    const [selectedValue, setSelectedValue] = useState('Date');
 
     useEffect(() => {
       for(var key in data)parsedTableData.push(data[key])
